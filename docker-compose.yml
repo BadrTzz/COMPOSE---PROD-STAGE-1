@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - static_volume:/app/staticfiles
+      - ./db.sqlite3:/app/db.sqlite3   
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=unsafe-secret-for-dev
+      - DJANGO_SETTINGS_MODULE=personalblog.settings
+    tty: true
+
+volumes:
+  static_volume:
