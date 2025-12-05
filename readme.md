@@ -3,7 +3,7 @@ prod stage 1
 1.Modificamos el requirements.txt para que tenga el gunicorn para un servidor mejor  y apra producion y whitenoise para los estilos que funcionene en modo de producion y borramos el del reload browser
 ![Titulo de la imagen](cap1.png)
 
-2.Para qeu todo esto funcione deberiamos ir a nuestro settings.py y modificar un par de cosas:
+2.Para que todo esto funcione deberiamos ir a nuestro settings.py y modificar un par de cosas:
 -1.seria  borrar o poner como monetarios esta linea (NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd")  porque si dejamos esta linea el docker intentara buscar dicho archivo y fallara ya que es linux.
 ![Titulo de la imagen](cap2.png)
 
