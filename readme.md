@@ -16,3 +16,6 @@ para crear el contenedor:: docker compose up --build
 
 ![Titulo de la imagen](cap2.png)
 # COMPOSE---PROD-STAGE-1
+# COMPOSE---PROD-STAGE-1
+# COMPOSE---PROD-STAGE-1
+# COMPOSE---PROD-STAGE-1
